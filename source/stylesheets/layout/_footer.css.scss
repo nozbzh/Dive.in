@@ -1,1 +1,21 @@
 // Your footer style
+.footer {
+  position: relative;
+  background-color: #141414;
+  color: white;
+  padding: 50px;
+  font-size: 40px;
+  a {
+  color: white;
+  &:hover { color: red; }
+  }
+  p {
+  font-size: 18px;
+  }
+
+}
+
+.list-inline li {
+  padding-left: 10px;
+  padding-right: 10px;
+}

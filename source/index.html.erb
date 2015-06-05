@@ -2,7 +2,7 @@
 title: Noz's Diveshop
 ---
 
-<div class="padded">
+<div>
   <div class="padded" id="banner">
   <div class="container">
     <div class="row">
@@ -24,28 +24,28 @@ title: Noz's Diveshop
   <div class="container">
     <div class="row text-center">
       <div class="col-xs-12 col-sm-6 col-md-3">
-        <%= image_tag "turtle.svg" %>
+        <%= image_tag "turtle.svg", class: "slideUp" %>
         <h3>Natural wonders</h3>
         <p>
           You will be amazed at what you'll in our <strong>underwater paradise</strong>
         </p>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3">
-        <%= image_tag "shark.svg" %>
+        <%= image_tag "shark.svg", class: "slideDown" %>
         <h3>Pelagics</h3>
         <p>
           A lot of sites have more pelagic species <strong>than you can count</strong>
         </p>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3">
-        <%= image_tag "frogfish.svg" %>
+        <%= image_tag "frogfish.svg", class: "slideRight" %>
         <h3>Bizzare creatures</h3>
         <p>
           Come with us and discover <strong>muck diving</strong>
         </p>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3">
-        <%= image_tag "seahorse.svg" %>
+        <%= image_tag "seahorse.svg", class: "slideRight" %>
         <h3>And cute ones</h3>
         <p>
           You will also find the cutest of all, the <strong>pigmy seahorse</strong>
@@ -57,7 +57,7 @@ title: Noz's Diveshop
 
 
 
-  <div class="padded text-center">
+  <div class="padded text-center bg-blue">
     <h2>Stay up to date</h2>
     <p>Register so you never miss important news</p>
     <form class="form-inline">
@@ -68,7 +68,7 @@ title: Noz's Diveshop
     </form>
   </div>
   <!-- Map -->
-  <div id="map" style="width: 100%; height: 400px;"></div>
+  <div id="map" style="width: 100%; height: 500px;"></div>
 
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 

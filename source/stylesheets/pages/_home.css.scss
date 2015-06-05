@@ -1,0 +1,20 @@
+#banner {
+  background-image: image-url('http://i.imgur.com/HQDfhWZ.jpg');
+  background-size: cover;
+  color: white;
+  h1 {
+  font-size: 50px;
+  padding-bottom: 20px;
+  font-weight: 500;
+  }
+  p {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.8em;
+  }
+  a {
+  margin-top: 20px;
+  font-size: 18px;
+  }
+}
+
