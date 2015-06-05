@@ -1,0 +1,23 @@
+/* code your banner design here */
+#banner {
+  background-image: url(http://i.imgur.com/HQDfhWZ.jpg);
+  background-size: cover;
+  color: white;
+}
+
+#banner h1 {
+  font-size: 50px;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+
+#banner p {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.8em;
+}
+
+#banner a {
+  margin-top: 20px;
+  font-size: 18px;
+}

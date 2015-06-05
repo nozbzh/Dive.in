@@ -1,9 +1,32 @@
----
-title: Noz's Diveshop
----
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:image" content="http://www.lewagon.org/assets/logo-f800df98aa2605c552400667353f47d2.png" />
 
-<div>
-  <div class="padded" id="banner">
+  <title>Noz's diveshop</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="stylesheets/style.css">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+
+<body>
+
+  <!-- Banner -->
+<div class="padded" id="banner">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 text-left">
@@ -12,7 +35,7 @@ title: Noz's Diveshop
       Come and discover <br>
       the best the sea has to offer
     </p>
-    <%= link_to "Book now", "#", class: "btn btn-primary" %>
+    <a href="#" class="btn btn-primary">Book now</a>
       </div>
     </div>
   </div>
@@ -24,28 +47,28 @@ title: Noz's Diveshop
   <div class="container">
     <div class="row text-center">
       <div class="col-xs-12 col-sm-6 col-md-3">
-        <%= image_tag "turtle.svg" %>
+        <img src="images/turtle.svg">
         <h3>Natural wonders</h3>
         <p>
           You will be amazed at what you'll in our <strong>underwater paradise</strong>
         </p>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3">
-        <%= image_tag "shark.svg" %>
+        <img src="images/shark.svg">
         <h3>Pelagics</h3>
         <p>
           A lot of sites have more pelagic species <strong>than you can count</strong>
         </p>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3">
-        <%= image_tag "frogfish.svg" %>
+        <img src="images/frogfish.svg">
         <h3>Bizzare creatures</h3>
         <p>
           Come with us and discover <strong>muck diving</strong>
         </p>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3">
-        <%= image_tag "seahorse.svg" %>
+        <img src="images/seahorse.svg">
         <h3>And cute ones</h3>
         <p>
           You will also find the cutest of all, the <strong>pigmy seahorse</strong>
@@ -99,24 +122,16 @@ title: Noz's Diveshop
           <div class="col-xs-4" id="social-links">
             <ul class="list-inline">
               <li>
-                <% link_to "#" do %>
-                <i class="fa fa-youtube"></i>
-                <% end %>
+                <a href="#"><i class="fa fa-youtube"></i></a>
               </li>
               <li>
-                <% link_to "#" do %>
-                <i class="fa fa-instagram"></i>
-                <% end %>
+                <a href="#"><i class="fa fa-instagram"></i></a>
               </li>
               <li>
-                <% link_to "#" do %>
-                <i class="fa fa-facebook"></i>
-                <% end %>
+                <a href="#"><i class="fa fa-facebook"></i></a>
               </li>
               <li>
-                <% link_to "#" do %>
-                <i class="fa fa-twitter"></i>
-                <% end %>
+                <a href="#"><i class="fa fa-twitter"></i></a>
               </li>
             </ul>
           </div>
@@ -131,4 +146,33 @@ title: Noz's Diveshop
   </div>
 </div>
 
-</div><!-- .welcome -->
+
+
+
+
+
+<!--   <div class="footer">
+    <ul class="list-inline">
+      <li>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+      </li>
+    </ul>
+    <p>
+      Stylus is a fictive product by LeWagon
+    </p>
+  </div> -->
+
+  <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>

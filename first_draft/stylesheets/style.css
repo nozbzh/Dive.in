@@ -1,0 +1,51 @@
+@import url("banner.css");
+@import url("footer.css");
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #141414;
+}
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bg-blue {
+/*  background-color: #469AE0;
+*/
+
+
+
+  background: -webkit-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* W3C */
+
+
+/*  background: -webkit-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%);
+  background:    -moz-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%);
+  background:     -ms-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%);
+  background:      -o-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%);
+  background:         linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%);*/
+
+  color: white;
+  font-size: 14px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.padded {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+./*form-area {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.form-area h2 {
+  font-size:
+}
+*/
+
