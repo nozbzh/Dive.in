@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Noz's Diveshop</title>
+
+    <link href="stylesheets/all.css" rel="stylesheet" type="text/css" />
+    <script src="javascripts/all.js" type="text/javascript"></script>
+  </head>
+
+  <body class="index">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+<a class="navbar-brand" href="./">            <img src="images/logo.svg" />
+</a>        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+<a href="/pricing.html">                <i class="fa fa-dollar"></i> Pricing
+</a>            </li>
+            <li>
+<a href="/contact.html">                <i class="fa fa-envelope-o"></i> Contact
+</a>            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Follow-us <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://www.facebook.com/lewagonformation"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+                <li><a href="https://twitter.com/lewagonparis"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+              </ul>
+            </li>
+            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">Order now</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div>
+  <div class="padded" id="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-left">
+         <h1>Dive.in</h1>
+    <p>
+      Come and discover <br>
+      the best the sea has to offer
+    </p>
+    <a class="btn btn-primary" href="#">Book now</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Features -->
+
+<div class="bg-blue padded">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <img src="images/turtle.svg" />
+        <h3>Natural wonders</h3>
+        <p>
+          You will be amazed at what you'll in our <strong>underwater paradise</strong>
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <img src="images/shark.svg" />
+        <h3>Pelagics</h3>
+        <p>
+          A lot of sites have more pelagic species <strong>than you can count</strong>
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <img src="images/frogfish.svg" />
+        <h3>Bizzare creatures</h3>
+        <p>
+          Come with us and discover <strong>muck diving</strong>
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <img src="images/seahorse.svg" />
+        <h3>And cute ones</h3>
+        <p>
+          You will also find the cutest of all, the <strong>pigmy seahorse</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="padded text-center">
+    <h2>Stay up to date</h2>
+    <p>Register so you never miss important news</p>
+    <form class="form-inline">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="bob@gmail.com">
+        <input type="submit" placeholder="Subscribe" class="btn btn-primary">
+      </div>
+    </form>
+  </div>
+  <!-- Map -->
+  <div id="map" style="width: 100%; height: 400px;"></div>
+
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+  <script type="text/javascript">
+  var myLatlng = new google.maps.LatLng(37.771183, -122.422207);
+
+  var myOptions = {
+    zoom: 16,
+    center: myLatlng,
+    scrollwheel: false,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}]
+  };
+
+  var map = new google.maps.Map(document.getElementById('map'), myOptions);
+  var marker = new google.maps.Marker({
+    position: myLatlng,
+    map: map,
+    title: "You are here!"
+  });
+  </script>
+  <!-- Footer -->
+  <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="row">
+          <div class="col-xs-4" id="social-links">
+            <ul class="list-inline">
+              <li>
+<a href="#">                <i class="fa fa-youtube"></i>
+</a>              </li>
+              <li>
+<a href="#">                <i class="fa fa-instagram"></i>
+</a>              </li>
+              <li>
+<a href="#">                <i class="fa fa-facebook"></i>
+</a>              </li>
+              <li>
+<a href="#">                <i class="fa fa-twitter"></i>
+</a>              </li>
+            </ul>
+          </div>
+          <div class="col-xs-8" id="copyright">
+            <p class="text-right">
+              135 Valencia, the best place for all your needs
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div><!-- .welcome -->
+
+  </body>
+</html>
