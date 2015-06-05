@@ -9243,6 +9243,28 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
+/* line 2, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_footer.css.scss */
+.footer {
+  position: relative;
+  background-color: #141414;
+  color: white;
+  padding: 50px;
+  font-size: 40px; }
+  /* line 8, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_footer.css.scss */
+  .footer a {
+    color: white; }
+    /* line 10, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_footer.css.scss */
+    .footer a:hover {
+      color: red; }
+  /* line 12, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_footer.css.scss */
+  .footer p {
+    font-size: 18px; }
+
+/* line 18, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_footer.css.scss */
+.list-inline li {
+  padding-left: 10px;
+  padding-right: 10px; }
+
 /* -------------------------------------
  * Colors & Fonts
  * ------------------------------------- */
@@ -9260,12 +9282,10 @@ button.close {
  * ------------------------------------- */
 /* line 38, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
-  background: white;
+  background: #EEEEEE;
   font-family: "Montserrat", "sans-serif";
   border: none;
   font-weight: 400;
-  padding-left: 20px;
-  padding-right: 20px;
   border-bottom: 0 solid grey;
   min-height: 0;
   transition: background 0.4s ease; }
@@ -9276,7 +9296,7 @@ button.close {
   .navbar-wagon .navbar-nav > .open > a:focus {
     outline: none;
     color: black;
-    line-height: 50px;
+    line-height: 100px;
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: transparent;
@@ -9302,7 +9322,7 @@ button.close {
     padding: 0 10px;
     color: white;
     border-radius: 2px;
-    margin-top: 10px;
+    margin-top: 35px;
     font-weight: bold;
     background-color: lightgrey;
     font-size: 12px; }
@@ -9311,13 +9331,13 @@ button.close {
       background-color: #868686; }
   /* line 93, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
-    height: 50px;
+    height: 100px;
     padding: 0px; }
   /* line 98, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .img-avatar {
     border: 2px solid white;
     box-shadow: 0 0 2px #c8c8c8;
-    height: 46px;
+    height: 96px;
     margin-right: 10px;
     border-radius: 50%; }
   /* line 106, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
@@ -9358,6 +9378,18 @@ button.close {
     color: black;
     padding-top: 0;
     padding-bottom: 0; } }
+/* line 155, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
+.name-in-nav {
+  position: absolute;
+  left: 150px;
+  top: 20px; }
+  /* line 159, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
+  .name-in-nav a {
+    color: black; }
+    /* line 161, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
+    .name-in-nav a:hover {
+      text-decoration: none; }
+
 /* -------------------------------------
  * Utilities classes
  * These are examples of utilities classes
@@ -9369,34 +9401,74 @@ button.close {
   padding-bottom: 8em; }
 
 /* line 11, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
+.padded-top {
+  padding-top: 6em; }
+
+/* line 14, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
+.padded-bottom {
+  padding-bottom: 8em; }
+
+/* line 17, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
 .bg-red {
   background: #EE5F5B;
   color: white; }
 
-/* line 15, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
+/* line 21, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
 .bg-blue {
-  background: #469AE0;
+  background: -webkit-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%);
+  background: -moz-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%);
+  background: -ms-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%);
+  background: -o-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%);
+  background: linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%);
   color: white; }
 
-/* line 19, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
+/* line 30, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
 .bg-yellow {
   background: #FDB631;
   color: white; }
 
-/* line 23, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
+/* line 34, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
 .bg-orange {
   background: #E67E22;
   color: white; }
 
-/* line 27, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
+/* line 38, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
 .bg-green {
   background: #32B796;
   color: white; }
 
-/* line 31, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
+/* line 42, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
 .bg-purple {
   background: #6452BD;
   color: white; }
+
+/* line 1, /home/noe/code/nozbzh/Dive.in/source/stylesheets/components/_button.css.scss */
+#book-in-nav {
+  margin-right: 10px; }
+
+/* line 1, /home/noe/code/nozbzh/Dive.in/source/stylesheets/pages/_home.css.scss */
+#banner {
+  background-image: url("http://i.imgur.com/HQDfhWZ.jpg");
+  background-size: cover;
+  color: white; }
+  /* line 5, /home/noe/code/nozbzh/Dive.in/source/stylesheets/pages/_home.css.scss */
+  #banner h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-weight: 500; }
+  /* line 10, /home/noe/code/nozbzh/Dive.in/source/stylesheets/pages/_home.css.scss */
+  #banner p {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.8em; }
+  /* line 15, /home/noe/code/nozbzh/Dive.in/source/stylesheets/pages/_home.css.scss */
+  #banner a {
+    margin-top: 20px;
+    font-size: 18px; }
+
+/* line 1, /home/noe/code/nozbzh/Dive.in/source/stylesheets/pages/_team.css.scss */
+.team-thumbnail {
+  width: 150px; }
 
 /*
 ==============================================
@@ -9420,8 +9492,8 @@ slideDown
 .slideDown {
   animation-name: slideDown;
   -webkit-animation-name: slideDown;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
+  animation-duration: 5s;
+  -webkit-animation-duration: 5s;
   animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
   visibility: visible !important; }
@@ -9461,8 +9533,8 @@ slideUp
 .slideUp {
   animation-name: slideUp;
   -webkit-animation-name: slideUp;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
+  animation-duration: 5s;
+  -webkit-animation-duration: 5s;
   animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
   visibility: visible !important; }
@@ -9543,8 +9615,8 @@ slideRight
 .slideRight {
   animation-name: slideRight;
   -webkit-animation-name: slideRight;
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
+  animation-duration: 5s;
+  -webkit-animation-duration: 5s;
   animation-timing-function: ease-in-out;
   -webkit-animation-timing-function: ease-in-out;
   visibility: visible !important; }
