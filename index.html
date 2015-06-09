@@ -15,8 +15,8 @@
   </head>
 
   <body class="index">
-    <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation">
-      <div class="container-fluid bg-blue">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-wagon bg-transparent" role="navigation">
+      <div class="container-fluid relative-position">
         <div class="name-in-nav">
 <a href="./">          <h1>Dive.in</h1>
 </a>        </div>
@@ -36,7 +36,6 @@
 
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="team.html">Our team</a>
             </li>
             <li>
 <a href="pricing.html">                <i class="fa fa-dollar"></i> Pricing
@@ -51,23 +50,26 @@
                 <li><a href="https://twitter.com/lewagonparis"><i class="fa fa-twitter-square"></i> Twitter</a></li>
               </ul>
             </li>
-            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn" id="book-in-nav">Book now</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">Book now</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
 
     <div>
-  <div class="padded" id="banner">
+  <div class="padded window-height" id="banner">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 text-left">
+      <div class="col-xs-12 text-left padded">
          <h1>Dive.in</h1>
-    <p>
-      Come and discover <br>
-      the best the sea has to offer
-    </p>
-    <a class="btn btn-primary" href="#">Book now</a>
+          <p>
+            Come and discover <br>
+            the best the sea has to offer
+          </p>
+          <a class="btn btn-primary" href="#">Book now</a>
+          <!-- <span id="link-white">
+            <a href="#map">Find us</a>
+          </span> -->
       </div>
     </div>
   </div>
@@ -75,32 +77,32 @@
 
   <!-- Features -->
 
-<div class="bg-blue padded">
+<div class="bg-blue padded" id="features">
   <div class="container">
     <div class="row text-center">
-      <div class="col-xs-12 col-sm-6 col-md-3">
-        <img class="slideUp" src="images/turtle.svg" />
+      <div class="col-xs-12 col-sm-6 col-md-3" data-sr="spin 180deg, over 1s">
+        <img src="images/turtle.svg" />
         <h3>Natural wonders</h3>
         <p>
           You will be amazed at what you'll in our <strong>underwater paradise</strong>
         </p>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-3">
-        <img class="slideDown" src="images/shark.svg" />
+      <div class="col-xs-12 col-sm-6 col-md-3" data-sr="wait 0.2s, spin 180deg, over 1s">
+        <img src="images/shark.svg" />
         <h3>Pelagics</h3>
         <p>
           A lot of sites have more pelagic species <strong>than you can count</strong>
         </p>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-3">
-        <img class="slideRight" src="images/frogfish.svg" />
+      <div class="col-xs-12 col-sm-6 col-md-3" data-sr="wait 0.4s, spin 180deg, over 1s">
+        <img src="images/frogfish.svg" />
         <h3>Bizzare creatures</h3>
         <p>
           Come with us and discover <strong>muck diving</strong>
         </p>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-3">
-        <img class="slideRight" src="images/seahorse.svg" />
+      <div class="col-xs-12 col-sm-6 col-md-3" data-sr="wait 0.6s, spin 180deg, over 1s">
+        <img src="images/seahorse.svg" />
         <h3>And cute ones</h3>
         <p>
           You will also find the cutest of all, the <strong>pigmy seahorse</strong>
@@ -149,6 +151,7 @@
 </div><!-- .welcome -->
 
 
+
     <!-- Footer -->
     <div class="footer">
     <div class="container">
@@ -182,6 +185,11 @@
     </div>
   </div>
 
+  <script>
+
+    window.sr = new scrollReveal();
+
+  </script>
 
   </body>
 </html>

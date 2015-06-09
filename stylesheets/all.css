@@ -9243,24 +9243,25 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
-/* line 2, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_footer.css.scss */
+/* line 2, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_footer.css.scss */
 .footer {
   position: relative;
   background-color: #141414;
   color: white;
   padding: 50px;
   font-size: 40px; }
-  /* line 8, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_footer.css.scss */
+  /* line 8, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_footer.css.scss */
   .footer a {
-    color: white; }
-    /* line 10, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_footer.css.scss */
+    color: white;
+    transition: color 0.3s ease; }
+    /* line 11, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_footer.css.scss */
     .footer a:hover {
       color: red; }
-  /* line 12, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_footer.css.scss */
+  /* line 13, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_footer.css.scss */
   .footer p {
     font-size: 18px; }
 
-/* line 18, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_footer.css.scss */
+/* line 19, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_footer.css.scss */
 .list-inline li {
   padding-left: 10px;
   padding-right: 10px; }
@@ -9280,16 +9281,18 @@ button.close {
 /* -------------------------------------
  * SCSS code
  * ------------------------------------- */
-/* line 38, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
+/* line 38, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
   background: #EEEEEE;
   font-family: "Montserrat", "sans-serif";
   border: none;
   font-weight: 400;
+  padding-left: 20px;
+  padding-right: 20px;
   border-bottom: 0 solid grey;
   min-height: 0;
   transition: background 0.4s ease; }
-  /* line 49, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
+  /* line 49, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a,
   .navbar-wagon .navbar-nav > .open > a,
   .navbar-wagon .navbar-nav > li > a:focus,
@@ -9304,19 +9307,19 @@ button.close {
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-  /* line 65, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
+  /* line 65, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a:hover,
   .navbar-wagon .navbar-nav > .open > a:hover {
     color: #FDB631;
     background-color: transparent; }
-  /* line 71, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
+  /* line 71, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover {
     outline: none;
     color: black;
     padding-top: 5px;
     padding-bottom: 5px; }
-  /* line 79, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
+  /* line 79, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a.btn {
     line-height: 40px;
     padding: 0 10px;
@@ -9326,30 +9329,30 @@ button.close {
     font-weight: bold;
     background-color: lightgrey;
     font-size: 12px; }
-    /* line 88, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
+    /* line 88, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon .navbar-nav > li > a.btn:hover {
       background-color: #868686; }
-  /* line 93, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
+  /* line 93, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 100px;
     padding: 0px; }
-  /* line 98, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
+  /* line 98, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .img-avatar {
     border: 2px solid white;
     box-shadow: 0 0 2px #c8c8c8;
     height: 96px;
     margin-right: 10px;
     border-radius: 50%; }
-  /* line 106, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
+  /* line 106, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-toggle {
     border-color: #dddddd;
     width: 45px;
     background: transparent; }
-  /* line 112, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
+  /* line 112, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu {
     border-radius: 0;
     margin-top: 10px; }
-  /* line 117, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
+  /* line 117, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu:before {
     position: absolute;
     background: white;
@@ -9369,51 +9372,55 @@ button.close {
  * Navbar profile picture
  * ------------------------------------- */
 @media screen and (max-width: 768px) {
-  /* line 140, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
+  /* line 140, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 50px; }
-  /* line 143, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
+  /* line 143, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand, .navbar-wagon .navbar-brand:hover {
     display: block;
     color: black;
     padding-top: 0;
     padding-bottom: 0; } }
-/* line 155, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
+/* line 155, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_navbar.css.scss */
 .name-in-nav {
   position: absolute;
   left: 150px;
   top: 20px; }
-  /* line 159, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
+  /* line 159, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_navbar.css.scss */
   .name-in-nav a {
     color: black; }
-    /* line 161, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_navbar.css.scss */
+    /* line 161, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_navbar.css.scss */
     .name-in-nav a:hover {
       text-decoration: none; }
+
+/* line 166, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_navbar.css.scss */
+.relative-position {
+  position: relative; }
 
 /* -------------------------------------
  * Utilities classes
  * These are examples of utilities classes
  * Feel free to change them and create your own
  * ------------------------------------- */
-/* line 7, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
+/* line 7, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_utilities.css.scss */
 .padded {
   padding-top: 8em;
   padding-bottom: 8em; }
 
-/* line 11, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
+/* line 11, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_utilities.css.scss */
 .padded-top {
   padding-top: 6em; }
 
-/* line 14, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
+/* line 14, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_utilities.css.scss */
 .padded-bottom {
   padding-bottom: 8em; }
 
-/* line 17, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
+/* line 17, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_utilities.css.scss */
 .bg-red {
   background: #EE5F5B;
   color: white; }
 
-/* line 21, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
+/* line 21, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_utilities.css.scss */
 .bg-blue {
   background: -webkit-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%);
   background: -moz-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%);
@@ -9422,51 +9429,69 @@ button.close {
   background: linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%);
   color: white; }
 
-/* line 30, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
+/* line 30, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_utilities.css.scss */
 .bg-yellow {
   background: #FDB631;
   color: white; }
 
-/* line 34, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
+/* line 34, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_utilities.css.scss */
 .bg-orange {
   background: #E67E22;
   color: white; }
 
-/* line 38, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
+/* line 38, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_utilities.css.scss */
 .bg-green {
   background: #32B796;
   color: white; }
 
-/* line 42, /home/noe/code/nozbzh/Dive.in/source/stylesheets/layout/_utilities.css.scss */
+/* line 42, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_utilities.css.scss */
 .bg-purple {
   background: #6452BD;
   color: white; }
 
-/* line 1, /home/noe/code/nozbzh/Dive.in/source/stylesheets/components/_button.css.scss */
-#book-in-nav {
-  margin-right: 10px; }
+/* line 47, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_utilities.css.scss */
+.bg-transparent {
+  background: transparent; }
 
-/* line 1, /home/noe/code/nozbzh/Dive.in/source/stylesheets/pages/_home.css.scss */
+/* line 51, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_utilities.css.scss */
+.bg-black-transparent {
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 2px black; }
+  /* line 54, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/layout/_utilities.css.scss */
+  .bg-black-transparent a {
+    color: white !important; }
+
+/* line 1, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/pages/_home.css.scss */
 #banner {
   background-image: url("http://i.imgur.com/HQDfhWZ.jpg");
   background-size: cover;
   color: white; }
-  /* line 5, /home/noe/code/nozbzh/Dive.in/source/stylesheets/pages/_home.css.scss */
+  /* line 5, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/pages/_home.css.scss */
   #banner h1 {
     font-size: 50px;
     padding-bottom: 20px;
-    font-weight: 500; }
-  /* line 10, /home/noe/code/nozbzh/Dive.in/source/stylesheets/pages/_home.css.scss */
+    font-weight: 500;
+    text-shadow: 1px 1px 3px black; }
+  /* line 11, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/pages/_home.css.scss */
   #banner p {
     font-size: 25px;
     font-weight: 700;
     line-height: 1.8em; }
-  /* line 15, /home/noe/code/nozbzh/Dive.in/source/stylesheets/pages/_home.css.scss */
+  /* line 16, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/pages/_home.css.scss */
   #banner a {
     margin-top: 20px;
     font-size: 18px; }
 
-/* line 1, /home/noe/code/nozbzh/Dive.in/source/stylesheets/pages/_team.css.scss */
+/* line 22, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/pages/_home.css.scss */
+#link-white a {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: right;
+  margin-right: 50px;
+  text-decoration: none; }
+
+/* line 1, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/pages/_team.css.scss */
 .team-thumbnail {
   width: 150px; }
 
@@ -9488,7 +9513,7 @@ justin@justinaguilar.com
 slideDown
 ==============================================
 */
-/* line 23, /home/noe/code/nozbzh/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 23, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideDown {
   animation-name: slideDown;
   -webkit-animation-name: slideDown;
@@ -9529,7 +9554,7 @@ slideDown
 slideUp
 ==============================================
 */
-/* line 85, /home/noe/code/nozbzh/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 85, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideUp {
   animation-name: slideUp;
   -webkit-animation-name: slideUp;
@@ -9570,7 +9595,7 @@ slideUp
 slideLeft
 ==============================================
 */
-/* line 147, /home/noe/code/nozbzh/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 147, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideLeft {
   animation-name: slideLeft;
   -webkit-animation-name: slideLeft;
@@ -9611,7 +9636,7 @@ slideLeft
 slideRight
 ==============================================
 */
-/* line 209, /home/noe/code/nozbzh/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 209, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideRight {
   animation-name: slideRight;
   -webkit-animation-name: slideRight;
@@ -9652,7 +9677,7 @@ slideRight
 slideExpandUp
 ==============================================
 */
-/* line 271, /home/noe/code/nozbzh/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 271, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideExpandUp {
   animation-name: slideExpandUp;
   -webkit-animation-name: slideExpandUp;
@@ -9705,7 +9730,7 @@ slideExpandUp
 expandUp
 ==============================================
 */
-/* line 351, /home/noe/code/nozbzh/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 351, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .expandUp {
   animation-name: expandUp;
   -webkit-animation-name: expandUp;
@@ -9738,7 +9763,7 @@ expandUp
 fadeIn
 ==============================================
 */
-/* line 400, /home/noe/code/nozbzh/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 400, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .fadeIn {
   animation-name: fadeIn;
   -webkit-animation-name: fadeIn;
@@ -9777,7 +9802,7 @@ fadeIn
 expandOpen
 ==============================================
 */
-/* line 456, /home/noe/code/nozbzh/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 456, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .expandOpen {
   animation-name: expandOpen;
   -webkit-animation-name: expandOpen;
@@ -9814,7 +9839,7 @@ expandOpen
 bigEntrance
 ==============================================
 */
-/* line 512, /home/noe/code/nozbzh/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 512, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .bigEntrance {
   animation-name: bigEntrance;
   -webkit-animation-name: bigEntrance;
@@ -9873,7 +9898,7 @@ bigEntrance
 hatch
 ==============================================
 */
-/* line 593, /home/noe/code/nozbzh/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 593, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .hatch {
   animation-name: hatch;
   -webkit-animation-name: hatch;
@@ -9921,7 +9946,7 @@ hatch
 bounce
 ==============================================
 */
-/* line 666, /home/noe/code/nozbzh/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 666, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .bounce {
   animation-name: bounce;
   -webkit-animation-name: bounce;
@@ -9964,7 +9989,7 @@ bounce
 pulse
 ==============================================
 */
-/* line 730, /home/noe/code/nozbzh/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 730, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pulse {
   animation-name: pulse;
   -webkit-animation-name: pulse;
@@ -9998,7 +10023,7 @@ pulse
 floating
 ==============================================
 */
-/* line 777, /home/noe/code/nozbzh/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 777, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .floating {
   animation-name: floating;
   -webkit-animation-name: floating;
@@ -10026,7 +10051,7 @@ floating
 tossing
 ==============================================
 */
-/* line 818, /home/noe/code/nozbzh/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 818, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .tossing {
   animation-name: tossing;
   -webkit-animation-name: tossing;
@@ -10054,7 +10079,7 @@ tossing
 pullUp
 ==============================================
 */
-/* line 859, /home/noe/code/nozbzh/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 859, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pullUp {
   animation-name: pullUp;
   -webkit-animation-name: pullUp;
@@ -10101,7 +10126,7 @@ pullUp
 pullDown
 ==============================================
 */
-/* line 928, /home/noe/code/nozbzh/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 928, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pullDown {
   animation-name: pullDown;
   -webkit-animation-name: pullDown;
@@ -10148,7 +10173,7 @@ pullDown
 stretchLeft
 ==============================================
 */
-/* line 997, /home/noe/code/nozbzh/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 997, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .stretchLeft {
   animation-name: stretchLeft;
   -webkit-animation-name: stretchLeft;
@@ -10195,7 +10220,7 @@ stretchLeft
 stretchRight
 ==============================================
 */
-/* line 1066, /home/noe/code/nozbzh/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 1066, /home/noe/code/nozbzh/fullstack-challenges/04-Front-End/05-Animation-tricks/04-Scroller-coaster/Dive.in/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .stretchRight {
   animation-name: stretchRight;
   -webkit-animation-name: stretchRight;
