@@ -2,7 +2,7 @@
 
 ## Description
 
-This site was built during [Le Wagon](www.lewagon.com)'s immersive fullstack web development in June 2015.
+This site was built during [Le Wagon](www.lewagon.com)'s immersive fullstack web development program in June 2015.
 
 See it [here](http://nozbzh.github.io/Dive.in/).
 
