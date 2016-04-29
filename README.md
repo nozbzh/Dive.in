@@ -1,4 +1,7 @@
-## Démarrer un nouveau projet.
+# Dive.in
 
-1. Forkez le repo
-1. Renommez-le puis clonez-le sur votre ordinateur
+## Description
+
+This site was built during [Le Wagon](www.lewagon.com)'s immersive fullstack web development in June 2015.
+
+It uses [Middleman](https://middlemanapp.com/) and was used as an introduction to the concept of templating languages.

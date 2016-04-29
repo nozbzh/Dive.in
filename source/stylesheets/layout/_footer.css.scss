@@ -7,6 +7,7 @@
   font-size: 40px;
   a {
   color: white;
+  transition: color 0.3s ease;
   &:hover { color: red; }
   }
   p {
